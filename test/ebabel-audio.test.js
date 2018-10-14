@@ -4,14 +4,20 @@ const { mockTHREE } = require('ebabel-mocks');
 const ebabelAudio = require('../src/ebabel-audio.js');
 
 let THREE;
-let scene;  /* eslint no-unused-vars:0 */
+let camera;
 
 beforeEach(() => {
   THREE = mockTHREE;
-  scene = new THREE.Scene();
+  camera = new THREE.PerspectiveCamera();
 });
 
-test('ebabelAudio returns something other than undefined.', () => {
-  const result = ebabelAudio();
+
+test('audio returns something other than undefined.', () => {
+  const result = ebabelAudio({
+    THREE,
+    camera,
+    name: 'death',
+    url: 'assets/death-groan.ogg'
+  });
   expect(result !== undefined).toBe(true);
 });
