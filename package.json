@@ -1,6 +1,6 @@
 {
   "name": "ebabel-audio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play music or positional sound.",
   "main": "index.js",
   "engines": {
@@ -21,7 +21,9 @@
     "javascript"
   ],
   "author": "Dave Pitts <dgapitts@gmail.com>",
-  "contributors": [],
+  "contributors": [
+    "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu)"
+  ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/dgapitts/ebabel-audio/issues"
