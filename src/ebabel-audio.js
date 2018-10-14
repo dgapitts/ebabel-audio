@@ -21,6 +21,7 @@
     url: 'assets/faery-shrine.mp3',
     name: 'faery-shrine-sounds',
   });
+ * @example
  * const nonPositionalAudio = audio({
     THREE,
     camera,
