@@ -1,0 +1,39 @@
+{
+  "name": "ebabel-audio",
+  "version": "1.0.0",
+  "description": "Play music or positional sound.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "npm run eslint && jest --coverage",
+    "jsdoc": "node ./node_modules/.bin/jsdoc -d ./docs ./index.js ./src/*.js",
+    "eslint": "node ./node_modules/.bin/eslint ./index.js ./src/*.js ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgapitts/ebabel-audio.git"
+  },
+  "keywords": [
+    "games",
+    "module",
+    "javascript"
+  ],
+  "author": "Dave Pitts <dgapitts@gmail.com>",
+  "contributors": [],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dgapitts/ebabel-audio/issues"
+  },
+  "homepage": "https://github.com/dgapitts/ebabel-audio#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "babel-eslint": "^10.0.1",
+    "ebabel-mocks": "^1.0.4",
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
+    "jsdoc": "^3.5.5"
+  }
+}

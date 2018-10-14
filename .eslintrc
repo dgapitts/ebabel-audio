@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "globals": {
+    "THREE": true,
+    "THREEx": true,
+    "test": true,
+    "expect": true,
+    "beforeEach": true
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "semi": [2, "always"]
+  }
+}
