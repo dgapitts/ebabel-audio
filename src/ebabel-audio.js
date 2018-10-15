@@ -12,6 +12,24 @@
  * @param {string} input.name - Unique name to identify the theme music and listener in THREE.js camera children.
  * @param {boolean} input.loop - Play theme music in a loop. False by default.
  * @param {boolean} input.autostart - Stars playing the music as soon as it loads. False by default.
+ * @example
+ * const positionalAudio = audio({
+    THREE,
+    camera,
+    volume: 0.45,
+    distance: 10;
+    url: 'assets/faery-shrine.mp3',
+    name: 'faery-shrine-sounds',
+  });
+ * @example
+ * const nonPositionalAudio = audio({
+    THREE,
+    camera,
+    volume: 0.45,
+    url: 'assets/theme-music-forest.mp3',
+    name: 'main-music',
+  });
+ * 
  * @returns {Object} Multiple objects and properties: camera, url, listener, sound, and audioLoader.
  */
  const audio = (input) => {
